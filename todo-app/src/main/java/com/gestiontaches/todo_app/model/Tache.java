@@ -12,7 +12,39 @@ public class Tache {
     private String description;
     private boolean terminee;
 
-    // Getters et setters
+    // Constructeur par défaut
+    public Tache() {}
 
-    // Constructeurs
+    // Getters et setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public boolean isTerminee() {
+        return terminee;
+    }
+
+    public void setTerminee(boolean terminee) {
+        this.terminee = terminee;
+    }
 }
